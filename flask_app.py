@@ -6,7 +6,6 @@ Copyright © 2021 Tony Held.  All rights reserved.
 
 Resources and Notes:
 1) https://realpython.com/python-requests/
-
 """
 import logging
 import json
@@ -22,7 +21,7 @@ import pprint
 from dir_diagnostics import values, strip_single_tag
 
 pp = pprint.PrettyPrinter(indent=4)
-# usage pp(stuff)
+# usage pp.pprint(stuff)
 
 # Set timezone, dateformat and logging
 pacific = pytz.timezone('US/Pacific')
@@ -34,7 +33,6 @@ logging.basicConfig(filename='flask_server_01.log',
                     format='%(asctime)s| %(message)s',
                     datefmt=datefmt)
 logging.info(f'Initiating logging at {datetime.now(pacific)}')
-
 
 app = Flask(__name__)
 
