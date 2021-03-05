@@ -48,7 +48,7 @@ def make_request(page, method, query):
 
     method : str
         Method of interaction with server.
-        Can be ['get', 'post', 'post_json']
+        Can be ['get', 'post', 'post_json', 'return_json']
 
     query : dict
         Dictionary of data sent to server

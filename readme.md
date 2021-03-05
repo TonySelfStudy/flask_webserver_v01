@@ -8,11 +8,19 @@ servers via http.  This framework will be built upon
 in subsequent apps.
 
 ## Usage
+### Python Client
 Run `python client_v01.py` to create various web requests
-for the flask server running remotely.
+for the flask server running remotely on pythonanywhere.
 
-In addition, one can modify the flask app as a simple 
-starter web app project on your own server.
+### Web Browser
+A web browser can be used to make a simple get request of the flask server.
+Use the python client if you wish to make a POST or send receive json data.
+
+https://ez066144.pythonanywhere.com/parse_request?<variables>  
+where <variables> is a & delimited list of variable=value.  
+
+For example:  
+[https://ez066144.pythonanywhere.com/parse_request?username=SteveHolt&show=ArrestedDevelopment](https://ez066144.pythonanywhere.com/parse_request?username=SteveHolt&show=ArrestedDevelopment)
 
 ## Results
 View the html files in [server_responses](server_responses)
