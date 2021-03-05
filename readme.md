@@ -16,11 +16,11 @@ for the flask server running remotely on pythonanywhere.
 A web browser can be used to make a simple get request of the flask server.
 Use the python client if you wish to make a POST or send receive json data.
 
-https://ez066144.pythonanywhere.com/parse_request?<variables>  
-where <variables> is a & delimited list of variable=value.  
+https://ez066144.pythonanywhere.com/parse_request?variable1=value1&variable2=value2 
+where you replace the text following the ? with your data of interest.
 
 For example:  
-[https://ez066144.pythonanywhere.com/parse_request?username=SteveHolt&show=ArrestedDevelopment](https://ez066144.pythonanywhere.com/parse_request?username=SteveHolt&show=ArrestedDevelopment)
+[https://ez066144.pythonanywhere.com/parse_request?username=SteveHolt&showname=ArrestedDevelopment](https://ez066144.pythonanywhere.com/parse_request?username=SteveHolt&show=ArrestedDevelopment)
 
 ## Results
 View the html files in [server_responses](server_responses)
