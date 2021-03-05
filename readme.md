@@ -12,6 +12,8 @@ in subsequent apps.
 Run `python client_v01.py` to create various web requests
 for the flask server running remotely on pythonanywhere.
 
+The python client can send and receive json data that is stored in a cloud database.
+
 ### Web Browser
 A web browser can be used to make a simple get request of the flask server.
 Use the python client if you wish to make a POST or send receive json data.
